@@ -12,17 +12,27 @@ Project in currently under development, hope to find something here soon!
 
 ### Repository
 ```xml
-SOON!
+<repository>
+  <id>eternalcode-repository-releases</id>
+  <name>EternalCode.pl - Reposilite</name>
+  <url>https://repo.eternalcode.pl/releases</url>
+</repository>
 ```
 ```groovy
-SOON!
+maven {
+    url "https://repo.eternalcode.pl/releases"
+}
 ```
 
 ### Dependencies
 ItemBuilders
 ```xml
-SOON!
+<dependency>
+  <groupId>dev.vetther</groupId>
+  <artifactId>itembuilder</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
 ```groovy
-SOON!
+implementation "dev.vetther:itembuilder:1.0.0"
 ```
