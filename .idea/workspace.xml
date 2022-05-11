@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8206bbe6-a9a5-44f7-a407-b6852031a8ed" name="Changes" comment="ItemBuilder and BaseBuilder">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/BasicBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemNbt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/SkullBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/utils/ReflectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/dev/vetther/plugin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +59,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/itembuilder/build.gradle.kts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/BasicBuilder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemBuilder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemNbt.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/ItemReflection.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/builder/SkullBuilder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/itembuilder/src/main/java/dev/vetther/itembuilder/utils/ReflectionUtils.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
