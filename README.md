@@ -10,7 +10,7 @@ Require Java 11 or higher. Use older versions at your own risk!
 ### Repository
 
 #### Maven
-```
+```xml
 <repository>
   <id>eternalcode-repository-releases</id>
   <name>EternalCode.pl - Reposilite</name>
@@ -18,13 +18,13 @@ Require Java 11 or higher. Use older versions at your own risk!
 </repository>
 ```
 
-#### Gradle (Grovy)
-```
+#### Gradle (Groovy)
+```groovy
 maven { url "https://repo.eternalcode.pl/releases" }
 ```
 
 #### Gradle (Kotlin)
-```
+```kt
 maven { url = uri("https://repo.eternalcode.pl/releases") }
 ```
 
@@ -32,7 +32,7 @@ maven { url = uri("https://repo.eternalcode.pl/releases") }
 
 
 #### Maven
-```
+```xml
 <dependency>
   <groupId>dev.vetther</groupId>
   <artifactId>itembuilder</artifactId>
@@ -40,12 +40,12 @@ maven { url = uri("https://repo.eternalcode.pl/releases") }
 </dependency>
 ```
 
-#### Gradle (Kotlin)
-```
+#### Gradle (Groovy)
+```groovy
 implementation "dev.vetther:itembuilder:1.0.1"
 ```
 
 #### Gradle (Kotlin)
-```
+```kt
 implementation("dev.vetther:itembuilder:1.0.1")
 ```
