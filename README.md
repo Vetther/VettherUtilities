@@ -8,28 +8,44 @@ Require Java 11 or higher. Use older versions at your own risk!
 </ul>
 
 ### Repository
-```xml
+
+#### Maven
+```
 <repository>
   <id>eternalcode-repository-releases</id>
   <name>EternalCode.pl - Reposilite</name>
   <url>https://repo.eternalcode.pl/releases</url>
 </repository>
 ```
-```groovy
-maven {
-    url "https://repo.eternalcode.pl/releases"
-}
+
+#### Gradle (Grovy)
+```
+maven { url "https://repo.eternalcode.pl/releases" }
 ```
 
-### Dependencies
-ItemBuilders
-```xml
+#### Gradle (Kotlin)
+```
+maven { url = uri("https://repo.eternalcode.pl/releases") }
+```
+
+### Dependencies - ItemBuilders
+
+
+#### Maven
+```
 <dependency>
   <groupId>dev.vetther</groupId>
   <artifactId>itembuilder</artifactId>
   <version>1.0.1</version>
 </dependency>
 ```
-```groovy
+
+#### Gradle (Kotlin)
+```
 implementation "dev.vetther:itembuilder:1.0.1"
+```
+
+#### Gradle (Kotlin)
+```
+implementation("dev.vetther:itembuilder:1.0.1")
 ```
