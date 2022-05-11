@@ -30,9 +30,9 @@ ItemBuilders
 <dependency>
   <groupId>dev.vetther</groupId>
   <artifactId>itembuilder</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 ```groovy
-implementation "dev.vetther:itembuilder:1.0.0"
+implementation "dev.vetther:itembuilder:1.0.1"
 ```
