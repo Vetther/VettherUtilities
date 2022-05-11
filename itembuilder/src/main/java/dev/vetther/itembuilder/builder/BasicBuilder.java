@@ -12,12 +12,12 @@ import org.bukkit.persistence.PersistentDataType;
 import java.util.Arrays;
 import java.util.List;
 
-public abstract class BasicBuilder<B extends BasicBuilder<B>> {
+abstract class BasicBuilder<B extends BasicBuilder<B>> {
 
     private ItemStack itemStack;
     private ItemMeta itemMeta;
 
-    public BasicBuilder(ItemStack itemStack, int amount) {
+    BasicBuilder(ItemStack itemStack, int amount) {
         this.itemStack = itemStack;
         this.itemMeta = itemStack.getItemMeta();
         this.itemStack.setAmount(amount);

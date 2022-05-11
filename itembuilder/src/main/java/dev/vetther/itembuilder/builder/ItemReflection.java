@@ -5,7 +5,7 @@ import net.kyori.adventure.text.serializer.gson.GsonComponentSerializer;
 
 import java.lang.reflect.Field;
 
-public class ItemReflection {
+class ItemReflection {
 
     public static final GsonComponentSerializer GSON = GsonComponentSerializer.gson();
     private static final Field DISPLAY_NAME;
