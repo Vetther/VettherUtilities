@@ -146,15 +146,19 @@ abstract class BasicBuilder<B extends BasicBuilder<B>> {
 
     public B setNbt(String key, boolean value) {
         if (itemMeta == null) return this.getThis();
-        itemMeta = (value)
-                ? ItemNbt.set(itemMeta, key, PersistentDataType.BYTE, (byte) 1)
-                : ItemNbt.set(itemMeta, key, PersistentDataType.BYTE, (byte) 0);
+        itemMeta = ItemNbt.setBoolean(itemMeta, key, value);
         return this.getThis();
     }
 
     public B setNbt(String key, double value) {
         if (this.itemMeta == null) return this.getThis();
         this.itemMeta = ItemNbt.set(this.itemMeta, key, PersistentDataType.DOUBLE, value);
+        return this.getThis();
+    }
+
+    public <T> B setNbt(String key, PersistentDataType<T, T> type,  T value) {
+        if (this.itemMeta == null) return this.getThis();
+        this.itemMeta = ItemNbt.set(this.itemMeta, key, type, value);
         return this.getThis();
     }
 

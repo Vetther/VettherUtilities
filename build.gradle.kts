@@ -34,6 +34,7 @@ subprojects {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
+    /*
     publishing {
         repositories {
             mavenLocal()
@@ -47,4 +48,5 @@ subprojects {
             }
         }
     }
+     */
 }
