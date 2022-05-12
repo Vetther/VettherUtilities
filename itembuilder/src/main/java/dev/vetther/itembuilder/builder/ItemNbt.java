@@ -11,17 +11,17 @@ public class ItemNbt {
     public static Plugin PLUGIN = JavaPlugin.getProvidingPlugin(ItemNbt.class);
 
     public static <T> ItemMeta set(ItemMeta itemMeta, String key, PersistentDataType<T, T> persistentDataType, T value) {
-        ItemMeta meta;
-        meta = itemMeta;
-        meta.getPersistentDataContainer().set(new NamespacedKey(PLUGIN, key), persistentDataType, value);
-        return meta;
+        ItemMeta clone = itemMeta.clone();
+
+        clone.getPersistentDataContainer().set(new NamespacedKey(PLUGIN, key), persistentDataType, value);
+        return clone;
     }
 
     public static ItemMeta remove(ItemMeta itemMeta, String key) {
-        ItemMeta meta;
-        meta = itemMeta;
-        meta.getPersistentDataContainer().remove(new NamespacedKey(PLUGIN, key));
-        return meta;
+        ItemMeta clone = itemMeta.clone();
+
+        clone.getPersistentDataContainer().remove(new NamespacedKey(PLUGIN, key));
+        return clone;
     }
 
     public static <T> T get(ItemMeta itemMeta, String key, PersistentDataType<T, T> persistentDataType) {
@@ -31,4 +31,9 @@ public class ItemNbt {
     public static boolean getBoolean(ItemMeta itemMeta, String key) {
         return get(itemMeta, key, PersistentDataType.BYTE) == (byte) 1;
     }
+
+    public static ItemMeta setBoolean(ItemMeta itemMeta, String key, boolean value) {
+        return set(itemMeta, key, PersistentDataType.BYTE, value ? (byte) 1 : (byte) 0);
+    }
+
 }
