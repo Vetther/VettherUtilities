@@ -36,16 +36,16 @@ maven { url = uri("https://repo.eternalcode.pl/releases") }
 <dependency>
   <groupId>dev.vetther</groupId>
   <artifactId>itembuilder</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
 #### Gradle (Groovy)
 ```groovy
-implementation "dev.vetther:itembuilder:1.0.1"
+implementation "dev.vetther:itembuilder:1.0.2"
 ```
 
 #### Gradle (Kotlin)
 ```kt
-implementation("dev.vetther:itembuilder:1.0.1")
+implementation("dev.vetther:itembuilder:1.0.2")
 ```
