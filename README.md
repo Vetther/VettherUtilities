@@ -4,7 +4,7 @@ Require Java 11 or higher. Use older versions at your own risk!
 
 ### Features
 <ul>
-  <li>ItemBuilders</b> (including SkullBuilder etc. soon)</li>
+  <li>ItemBuilders</b> (SkullBuilder soon)</li>
 </ul>
 
 ### Repository
